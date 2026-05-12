@@ -1,6 +1,8 @@
 #ifndef IBU_H
 #define IBU_H
 #include <vector>
+#include <iostream>
+using namespace std;
 
 class ibu {
    public:
@@ -17,10 +19,6 @@ class ibu {
     void cetakAnak();
 }; 
 
-}
-    void tambahAnak(anak*);
-    void cetakAnak();
-};
 
 void ibu::tambahAnak(anak* pAnak) {
     daftar_anak.push_back(pAnak);
